@@ -8,7 +8,7 @@ Frameworks like Vue.js or React-Native are nice, but those heavily depends on th
 
 ##### ES6 as benefit to write OOP JavaScript code:
 Since "old" programmers - or those who simply copy&paste and coming up with the argument while using jQuery telling you "it's working" or like "how it always has been done" are those who aren't spending their own time into development.
-Anyone in your company or yourself as a single-person programming would definitely benefit from the Frontend-Assets since it's designed as OOP. Obviously it's highly inspired by PHP PSR (PHP Standard Recommendations) where the Symfony application has the perfect packages done e.g. the PSR-11 Container - where in our JavaScript Frontend-Assets it's fetchable by calling:
+Anyone in your company or yourself as a single-person programming would definitely benefit from the Frontend-Assets since it's designed as OOP. Obviously it's highly inspired by PHP PSR (PHP Standard Recommendations) where the Symfony application has the perfect packages done e.g. the PSR-11 Container - where in our JavaScript Frontend-Assets we got a similiar usage of this using following function:
 ```js
 const App = Application || window.Application;
       App.getContainer();
