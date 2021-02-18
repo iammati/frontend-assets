@@ -17,7 +17,7 @@ This contains all references to created instances which has been done using:
 ```js
 import LoadEvent from './../Event/DOM/LoadEvent';
 ...
-App.add('DOMLoadEvent', new LoadEvent(this));
+App.getContainer().add('DOMLoadEvent', new LoadEvent(this));
 ```
 This is a living-example right inside of the `Container.js` class.
 #
